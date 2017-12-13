@@ -16,15 +16,40 @@
 		width: 100%;
 		margin-left: 0%;
 	}
+	blockquote {
+		font-size: 17px;
+	}
 
 	.plan-price { font-size: 250%; }
 	.contact-form { width: 80%; }
 	.flex-mission>div {
   		width: 100%;
-  		font-size: 15px;
+  		font-size: 17px;
+	}
+	.main-nav { display: none; } 
+	.mobile-nav-icon { display: inline-block; }
+	.main-nav { 
+		float: left;
+		margin-top: 25px;
+		margin-left: 25px;
+	 }
+	.main-nav li { display: block; }
+
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 5px 0;
+		font-size: 100%;
 	}
 
+	.sticky .main-nav { margin-top: 10px; }
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {padding: 5px 0;}
+	.sticky .mobile-nav-icon  { margin-top: 10px; }
+	.sticky .mobile-nav-icon i { color: #555; }
 
+}
 
 /* Small phones t0 small tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
