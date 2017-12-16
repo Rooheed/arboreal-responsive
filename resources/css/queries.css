@@ -128,3 +128,44 @@
 	h1 { font-size: 140%; }
 
 }
+
+@media print {
+    h1,
+    h2,
+    h3{
+    	color: #000;
+    	font-size: 25px;
+   }
+
+    nav,
+    header,
+    footer,
+    form,
+    figure  {
+    	display: none;
+  }
+  
+	.section-theme { padding: 150px 0; }
+	.flex-themes { display: block; }
+	.flex-themes blockquote { color: #000; }
+
+	.section-mission { padding: 150px 0; }
+	.flex-mission{ display: block; }
+	.flex-mission>div:nth-child(1) { 
+		font-size: 25px;
+		color: #000;
+		width: 80%;
+ }
+	.flex-mission>div:nth-child(2){ 
+		font-size: 25px; 
+		color: #000;
+	}
+	.section-form { display: none; }
+
+	.row,
+	.hero-text-box { padding: 0 4%; }
+	.col { width: 100%;
+		   margin: 0 0 4% 0;
+	}
+
+}

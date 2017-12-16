@@ -337,3 +337,6 @@ Copyright © 2017 by Arboreal. All rights reseved.
 
 Rooheed Gulistani
 Copyright © 2017 Rooheed Gulistani
+
+HTML och CSS är validerad via W3C HTML Validator/W3C CSS Validator:
+inga fel på validering.
