@@ -301,9 +301,6 @@ input[type=submit]:active {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/hhh.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/hhh.jpg);
     background-size: cover;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
